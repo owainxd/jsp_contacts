@@ -1,0 +1,9 @@
+<c:forEach var="c" items="${membres}" >
+                    <tr>
+
+                        <td>${c.nom}</td>
+                        <td>${c.prenom}</td>
+                        <td>${c.phone}</td>
+                        <td>${c.ville}</td>
+                    </tr>
+                </c:forEach>
